@@ -124,7 +124,7 @@ const getQuestionInfo = (): {
     "color: red;"
   );
   const playerId = prompt(
-    "Enter other player name here, he must take a part in quiz!"
+    "Enter another Quizzizz player's EXACT name to get it wrong for them and to QuizAce this for yourself!"
   );
   if (!playerId) throw new Error("PlayerID not defined");
   const questionInfo = getQuestionInfo();
